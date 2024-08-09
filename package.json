@@ -1,0 +1,42 @@
+{
+  "name": "foksha-web",
+  "version": "4.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@egjs/flicking-plugins": "^4.7.1",
+    "@egjs/react-flicking": "^4.11.0",
+    "@mdx-js/loader": "^2.3.0",
+    "@nextui-org/react": "^2.1.12",
+    "@types/node": "20.4.9",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.10",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "next": "13.4.7",
+    "next-themes": "^0.2.1",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "tailwind-variants": "^0.1.13",
+    "typescript": "5.1.6",
+    "use-debounce": "^9.0.4",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.31",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^3.3.3",
+    "sass": "^1.69.0"
+  }
+}

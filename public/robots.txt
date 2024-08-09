@@ -1,0 +1,7 @@
+# Block all crawlers for static assets
+User-agent: *
+Disallow: /assets/*
+Disallow: /files/*
+
+User-agent: GPTBot
+Disallow: /
