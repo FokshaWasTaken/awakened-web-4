@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import ModrinthLogo from '@/components/ModrinthLogo'
-import Logo from "@/components/Logo";
 import {SiDart, SiJetbrains, SiKofi,} from "react-icons/si";
 import {FaJava} from "react-icons/fa";
 import {
@@ -90,7 +89,6 @@ export default function Home() {
             </Head>
             <main className={"max-w-[1400px] mx-auto"}>
                 <div className={"mx-auto w-fit mb-[3rem] mt-6"}>
-                    <Logo className={"w-[80vw] mx-auto sm:w-auto h-12"}/>
                     <div className={"justify-center flex flex-wrap mt-2"}>
                         <div className={"justify-center flex flex-wrap mt-2"}>
                             {navItems.map((item) => buildNavSection(item, NavDiv))}
